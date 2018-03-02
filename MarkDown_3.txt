@@ -1,6 +1,0 @@
-3: git reset --hard
-I know a few of you just freaked out. Some people find git reset scary, especially when run with the --hard option. However I find it complements the other two commands. For example, if there were changes I didn’t add with git add -p or changes from a spike I didn’t want to commit I can easily discard them with git reset --hard.
-
-Now, that’s not to say you should be cavalier with git reset --hard. There are still some scary stories. Simply being mindful will mitigate this fear. In reality, you should never be afraid to run a Git command when armed with git reflog and git fsck.
-
-In the end, I think these 3 Git commands say more to my everyday workflow. Maybe you see how they fit into your own. I explain these and over 20 other Git commands in my upcoming video series Getting Git. Which is now available in early access. And check out my next post on when I make commits.
