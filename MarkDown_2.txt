@@ -1,0 +1,9 @@
+2: git commit --amend --no-edit
+When working on something, I usually only make one or two commits total. However, given the 10x ratio of reading code versus writing code these commits might happen over a long period of time. In between that time I like to make small, incremental commits – even if it’s just a WIP commit.
+
+For these commits, I like to use git commit --amend --no-edit. Yes, I know I can use git rebase instead. But most of the time work is done sequential. So I don’t need to need all that, I can simply append my changes to the previous comment.
+
+This also allows me to keep a clean state, which makes it easier to run other Git commands as well as keep track of my changes over time. It also provides the freedom to spike on some changes that I may not end up using without relying on -z.
+
+I’ll admit, this starts to get into what I consider a commit (which I’ll wrote about in my next post).
+
